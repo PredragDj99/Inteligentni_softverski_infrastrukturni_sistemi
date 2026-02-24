@@ -1,0 +1,20 @@
+Pokretanje fronta:
+-cd frontend
+-npm start
+
+Pokreni ovako iz root foldera
+- python -m Pokretanje.main
+U drugom terminalu se pokrece server:
+-cd Pokretanje
+-python main.py
+
+Sada rade na
+✅ Flask backend
+→ Radi na http://127.0.0.1:5000
+→ Čeka da primi zahteve (npr. /run-network ili /api/data)
+
+✅ React frontend
+→ Radi na http://localhost:3000
+→ Prikazuje formu i interfejs korisniku
+
+Za gasenje oba idi na ctrl+c
